@@ -183,6 +183,23 @@
         margin: 0 0 0.5rem 0;
     }
 	
+	  .blog-post a:link {
+  color: #75A389;
+}
+
+.blog-post a:visited {
+  color: #75A389;
+}
+
+.blog-post a:hover {
+  color: #75A389;
+}
+
+.blog-post a:active {
+  color: #75A389;
+}
+  
+	
 	  .card-container {
     display: flex;
     gap: 1rem; /* Adjust the gap between the cards */
@@ -473,3 +490,63 @@
 }
   
  
+ 
+.our-news
+{
+	        flex: 1;
+        padding: 1rem;
+}
+
+.who-we-are
+{
+	        flex: 2;
+        padding: 1rem;
+        margin-right: 1rem;
+}
+.who-we-are-content 
+{
+	display: flex;
+}
+.who-we-are-img
+{
+	    width:100%;
+}
+.who-we-are-img img
+{
+	    width:100%;
+}
+
+.who-we-are-list
+{
+	width: 50%;
+}
+
+.green-text 
+{
+	color: #75A389;
+}
+.blog-post-img 
+{
+	text-align: center;
+}
+.blog-post-img img
+{
+	width:90%;
+	height:200px;
+	object-fit: cover;
+    border: 12px solid;
+    border-color: white;
+	outline: 1px solid #808080;
+}
+
+.hr-fat
+{
+	    height: 2px;
+    background-color: #c0c0c0;
+}
+.hr-thin 
+{
+	border-top: 1px solid #c0c0c0;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
