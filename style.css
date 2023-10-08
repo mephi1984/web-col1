@@ -103,6 +103,11 @@
       right: 1px;
       left: auto;
     }
+	
+	a.navbar-selected
+	{
+		color: black;
+	}
 
 
 	.learnmore {
@@ -549,4 +554,97 @@
 	border-top: 1px solid #c0c0c0;
 	margin-bottom: 20px;
 	margin-top: 20px;
+}
+
+
+.about-block{
+		        flex: 1;
+        padding: 1rem;
+        margin-right: 1rem;
+}
+
+.about-form-block{
+		        flex: 1;
+        padding: 1rem;
+        margin-right: 1rem;
+}
+
+.where-we-are-img
+{
+}
+
+.where-we-are-img img {
+	    width: 80%;
+    border: 12px solid;
+    border-color: white;
+    outline: 1px solid #808080;
+}
+
+  .about-form-container {
+	  width: 80%;
+  }
+
+  .about-form-container p {
+	  margin-bottom: 2px;
+  }
+  
+  
+  .about-form-container input {
+	  width: 100%;
+  }
+  
+    .about-form-container textarea {
+	  width: 100%;
+  }
+  
+  .about-form-button-container
+  {
+	  display: flex;
+  }
+  
+  input.about-form-button1 {
+	width:30%;
+	margin-right: auto;
+  }
+  
+  
+    input.about-form-button2 {
+	width:30%;
+	margin-left: auto;
+  }
+
+
+.gallery-container{
+	
+	width: 90%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.gallery-image-row {
+	display: flex;
+}
+
+.gallery-image-block {
+	    margin: 10px;
+		position: relative;
+		width: 30%;
+}
+
+.gallery-image-block-text {
+		position: absolute;
+		
+    margin-bottom: 20px;
+    bottom: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+.gallery-image-block img{
+	width:100%;
+	height:200px;
+	object-fit: cover;
 }
